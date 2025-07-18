@@ -75,8 +75,7 @@ function App() {
           <p>
             {lastMessage ? <span>Last message: {lastMessage.data}</span> : null}
           </p>
-          {/* {messageHistory &&
-            messageHistory.map((message, i) => <p key={i}>{message}</p>)} */}
+      
         </div>
       )}
     </div>
